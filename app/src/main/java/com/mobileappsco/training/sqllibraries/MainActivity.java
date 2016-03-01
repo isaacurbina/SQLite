@@ -1,5 +1,6 @@
 package com.mobileappsco.training.sqllibraries;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         txtView1 = (TextView) findViewById(R.id.txtView1);
         imageView1 = (ImageView) findViewById(R.id.imageView1);
         imageView2 = (ImageView) findViewById(R.id.imageView2);
+
     }
 
     @Override
@@ -65,5 +67,10 @@ public class MainActivity extends AppCompatActivity {
         Book book = new Book(etTitle.getText().toString(),
                             etEdition.getText().toString());
         book.save();
+    }
+
+    public void goScrollingActivity(View view) {
+        Intent i = new Intent(this, ScrollingActivity.class);
+        startActivity(i);
     }
 }

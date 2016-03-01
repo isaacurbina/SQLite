@@ -10,6 +10,12 @@
     android:orientation="vertical"
     tools:context="com.mobileappsco.training.sqllibraries.MainActivity">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to second activity"
+        android:onClick="goScrollingActivity" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,7 +41,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Read from DB"
+        android:text="@string/btnReadBDB"
         android:onClick="readBookDB"
         />
 

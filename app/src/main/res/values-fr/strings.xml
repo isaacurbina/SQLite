@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SQLLibraries</string>
+    <string name="edTitle">Title du Livre</string>
+    <string name="etEdition">Edition</string>
+    <string name="btnSave">Sauvez dans BD</string>
+</resources>
