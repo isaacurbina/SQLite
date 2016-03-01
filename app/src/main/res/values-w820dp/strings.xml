@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edTitle">Book Title</string>
+    <string name="etEdition">Edition</string>
+    <string name="btnSave">Save to DB</string>
+</resources>
